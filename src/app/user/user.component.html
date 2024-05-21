@@ -1,0 +1,10 @@
+<section>
+  @if(isLoggedIn){
+  <p>Bienvenido, {{ username }}</p>
+  <img src="https://github.com/aslansn.png" alt="photo"/>
+  } @else{
+  <p>¡Inicia sesión!</p>
+  }
+
+  <app-game />
+</section>
